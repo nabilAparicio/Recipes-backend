@@ -24,4 +24,10 @@ router
     recipeServices.deleteRecipe
   );
 
+router.get(
+  "/me/my_recipes",
+  passport.authenticate("jwt", { session: false }),
+  getUserRecipes
+);
+
 module.exports = router;

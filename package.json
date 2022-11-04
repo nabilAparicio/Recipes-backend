@@ -1,5 +1,5 @@
 {
-  "name": "skeleton",
+  "name": "academlo-recipe",
   "version": "1.0.0",
   "description": "- Express - PostgreSQL - Sequelize ORM  - Autenticación con Tokens - Bcrypt para hashear contraseñas - Uso de Json Web Token",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "test": "npx mocha"
   },
   "keywords": [],
-  "author": "",
+  "author": "Orlando Aparicio",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
